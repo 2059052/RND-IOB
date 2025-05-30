@@ -1,6 +1,6 @@
 # RND-IOB Application
 
-This repository includes both the **Front-End** (React.js) and **Back-End** (Express.js) code bases.
+This repository includes both the **Front-End** (React.js) and **Back-End** (Express.js) code bases..
 
 ---
 
@@ -9,17 +9,20 @@ This repository includes both the **Front-End** (React.js) and **Back-End** (Exp
 ### 🔧 Setup Instructions
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/2059052/RND-IOB.git
    cd RND-IOB
    ```
 
 2. **Install Dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the Development Server**
+
    ```bash
    npm run dev
    ```
@@ -36,17 +39,20 @@ This repository includes both the **Front-End** (React.js) and **Back-End** (Exp
 ### 🔧 Setup Instructions
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/2059052/RND-IOB.git
    cd RND-IOB
    ```
 
 2. **Install Dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the Development Server**
+
    ```bash
    npm run start
    ```
@@ -61,6 +67,7 @@ This repository includes both the **Front-End** (React.js) and **Back-End** (Exp
 ### 📥 1. Install MongoDB
 
 - **macOS (Homebrew):**
+
   ```bash
   brew tap mongodb/brew
   brew install mongodb-community@7.0
@@ -88,7 +95,6 @@ In your Backend Express `.env` or config file, add:
 ```env
 MONGO_URI=mongodb://localhost:27017/your-database
 ```
-
 
 ---
 
