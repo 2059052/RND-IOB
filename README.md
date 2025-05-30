@@ -56,6 +56,40 @@ This repository includes both the **Front-End** (React.js) and **Back-End** (Exp
 
 > ⚠️ To interact with the back-end, the front-end must be running and making requests to port `3001`.
 
+## 🛢️ MongoDB Setup (Local Development)
+
+### 📥 1. Install MongoDB
+
+- **macOS (Homebrew):**
+  ```bash
+  brew tap mongodb/brew
+  brew install mongodb-community@7.0
+  ```
+
+- **Ubuntu/Debian:**
+  Follow the [MongoDB official install guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
+
+- **Windows:**
+  Download and install from: [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+
+### ▶️ 2. Start MongoDB Locally
+
+- **macOS/Linux (Homebrew/Systemd):**
+  ```bash
+  brew services start mongodb-community@7.0
+  # or use:
+  mongod
+  ```
+
+### ⚙️ 3. Connect Your App to MongoDB
+
+In your Backend Express `.env` or config file, add:
+
+```env
+MONGO_URI=mongodb://localhost:27017/your-database
+```
+
+
 ---
 
 ## 🛠 Tech Stack
